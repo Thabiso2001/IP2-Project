@@ -73,7 +73,7 @@ Before running this project, ensure you have:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/mut-ict-website.git
-cd mut-ict-website
+git clone https://github.com/yourusername/project.git
+cd project
 
 
