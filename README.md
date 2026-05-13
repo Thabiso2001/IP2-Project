@@ -1,85 +1,60 @@
-# MUT ICT Department Website
+# MUT ICT Department - Online Application System
 
-## Project Overview
+ 📌 Project Overview
 
-The MUT ICT Department Website is a web-based platform developed for the Mangosuthu University of Technology (MUT) ICT Department. The system provides information about the department, programmes, news, careers, contact details, and includes an administration section for managing content.
+This is a complete web-based application system for the Department of Information & Communication Technology at Mangosuthu University of Technology (MUT). The system allows prospective students to apply online, interact with a chatbot assistant, subscribe to newsletters, provide feedback, and allows administrators to manage applications.
 
-The application was developed using Node.js, Express.js, MySQL, HTML, CSS, and JavaScript.
+## 🚀 Features
 
-### Main Features
+ Public Features
+- **Online Application Form** - Prospective students can submit applications
+- **Smart Search** - Search programmes easily
+- **Chatbot Assistant** - AI-powered chatbot named "Owami" answers questions
+- **Newsletter Subscription** - Stay updated with latest news
+- **Feedback System** - Rate and review the website
+- **Responsive Design** - Works on all devices
+- **Real-time Updates** - Latest announcements displayed
 
-* Responsive ICT Department website
-* Student and visitor information pages
-* News and announcements section
-* Careers information page
-* Contact form support
-* Admin login and authentication system
-* File/image upload functionality
-* Secure password hashing with bcrypt
-* MySQL database integration
-* Security middleware with Helmet and rate limiting
-* Logging and error handling middleware
+User Features (Students/Visitors)
+- **User Registration & Login** - Create account to apply
+- **Personal Dashboard** - View application status
+- **Document Upload** - Upload matric certificates and ID copies
+- **Application Tracking** - Track application progress
 
----
+Admin Features
+- **Admin Dashboard** - Manage all applications
+- **View Applications** - See all submitted applications
+- **Update Status** - Change application status (pending/approved/rejected)
+- **Delete Records** - Remove applications, enquiries, subscribers, feedback
+- **Export Data** - Export data to CSV format
+- **View Statistics** - See total counts of all data
 
-# Technologies Used
+- Technologies Used
 
-## Frontend
+| Technology | Purpose |
+|------------|---------|
+| Node.js | Backend runtime |
+| Express.js | Web framework |
+| MySQL | Database |
+| bcrypt | Password hashing |
+| express-session | Session management |
+| multer | File upload handling |
+| sharp | Image optimization |
+| HTML5/CSS3 | Frontend structure & styling |
+| JavaScript | Client-side interactivity |
+| Font Awesome | Icons |
+| Google Fonts | Typography |
 
-* HTML5
-* CSS3
-* JavaScript
+## 🔧 Prerequisites
 
-## Backend
+Before running this project, ensure you have:
 
-* Node.js
-* Express.js
-
-## Database
-
-* MySQL (XAMPP)
-
-## Additional Packages / Dependencies
-
-* axios
-* bcrypt
-* cookie-parser
-* csurf
-* express-rate-limit
-* express-session
-* express-validator
-* helmet
-* multer
-* mysql2
-* nodemailer
-* sharp
-* tesseract.js
-
-
-# Project Structure
-
-```text
-mut_ict_website/
-│
-├── public/
-│   ├── index.html
-│   ├── about.html
-│   ├── contact.html
-│   ├── news.html
-│   ├── admin.html
-│   └── uploads/
-│
-├── node_modules/
-├── package.json
-├── package-lock.json
-├── server.js
-├── setup-admin.js
-└── README.md
-```
-
-
-
----
+| Software | Version | Download Link |
+|----------|---------|---------------|
+| Node.js | v14+ | https://nodejs.org/ |
+| XAMPP | v7.4+ | https://www.apachefriends.org/ |
+| Git | Latest | https://git-scm.com/ |
+| Web Browser | Chrome/Firefox/Edge | - |
 
 # Team Members and Contributions
 
@@ -90,4 +65,15 @@ mut_ict_website/
 | 22222778       | OS Xulu      | Database setup, SQL structure creation and backend support                                             |
 | 22328534       | OR Mnyayi    | Research, content collection, contact/news pages and system testing                                    |
 | 21404935       | SV Hlongwane | Security features, validation, file upload functionality and debugging                                 |
+
+
+
+## 📥 Installation Steps
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/mut-ict-website.git
+cd mut-ict-website
+
 
